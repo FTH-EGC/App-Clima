@@ -29,46 +29,46 @@ const Formulario = ({busqueda, guardarBusqueda, guardarConsultar}) => {
 
 
     return ( 
-        <form 
-        className="Secciones"
-        onSubmit={obtenerDatos}
-        >
-            <h2>Coloca tu Ciudad y País</h2>
-            <label>Ciudad:</label>
-            <input
-                type="text"
-                name="ciudad"
-                placeholder="Ej. Guadalajara"
-                className="input"
-                value={ciudad}
+            <form 
+            className="Secciones"
+            onSubmit={obtenerDatos}
+            >
+                <h2>Coloca tu Ciudad y País</h2>
+                <label>Ciudad:</label>
+                <input
+                    type="text"
+                    name="ciudad"
+                    placeholder="Ej. Guadalajara"
+                    className="input"
+                    value={ciudad}
+                    onChange={actualizarBusqueda}
+                />
+                <label>País:</label>
+                <select
+                className="input" 
+                name="pais"
+                value={pais}
                 onChange={actualizarBusqueda}
-            />
-            <label>País:</label>
-            <select
-             className="input" 
-             name="pais"
-             value={pais}
-             onChange={actualizarBusqueda}
-             >
-                <option disabled value="">--Seleccione--</option>
-                <option value="US">Estados Unidos</option>
-                <option value="MX">México</option>
-                <option value="AR">Argentina</option>
-                <option value="CO">Colombia</option>
-                <option value="CR">Costa Rica</option>
-                <option value="ES">España</option>
-                <option value="PE">Perú</option>
-                <option value="CA">Canada</option>
-                <option value="FR">Francia</option>
-                <option value="BR">Brasil</option>
-            </select>
-            {error  ? <Error mensaje="Todos los campos son obligatorios" /> : null}
-            <input
-                type="submit"
-                className="boton"
-                value="Ver Clima"
-            />
-        </form>
+                >
+                    <option disabled value="">--Seleccione--</option>
+                    <option value="US">Estados Unidos</option>
+                    <option value="MX">México</option>
+                    <option value="AR">Argentina</option>
+                    <option value="CO">Colombia</option>
+                    <option value="CR">Costa Rica</option>
+                    <option value="ES">España</option>
+                    <option value="PE">Perú</option>
+                    <option value="CA">Canada</option>
+                    <option value="FR">Francia</option>
+                    <option value="BR">Brasil</option>
+                </select>
+                {error  ? <Error mensaje="Todos los campos son obligatorios" /> : null}
+                <input
+                    type="submit"
+                    className="boton"
+                    value="Ver Clima"
+                />
+            </form>
      );
 }
  
