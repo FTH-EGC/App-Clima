@@ -1,8 +1,8 @@
-# ##Bienvenido a la aplicación del clima 👋
+# Bienvenido a la aplicación del clima 👋
 
 #### Introducción 💻 
 
-Este es un proyecto que te muestra el clima, colocando la ciudad y seleccionando el país. Hace uso de la API de openweathermap.com y fue desarrollado con ReactJS y Tailwind CSS. El proyectos es resposive, por lo cual es posible utilizarlo en PC, Tablets y Celulares sin problemas.
+Este es un proyecto que te muestra el clima, colocando la ciudad y seleccionando el país. Hace uso de la API de openweathermap.com y fue desarrollado con ReactJS y Tailwind CSS. El proyecto es resposive, por lo cual es posible utilizarlo en PC, Tablets y Celulares sin problemas.
 
 **Instalación**   👨‍💻 
 Es necesario tener instalado Node.Js para poner inicializar el proyecto. Una vez instalado abrir la consola y entrar al directorio del proyecto Ejemplo:
