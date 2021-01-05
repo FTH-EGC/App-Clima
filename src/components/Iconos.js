@@ -84,7 +84,7 @@ const Iconos = ({resultado}) => {
 
 
     return ( 
-        <img src={icono} alt="iconos clima"/>
+        <img src={icono} alt="iconos clima" className="h-14"/>
 
      );
 }

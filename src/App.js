@@ -63,10 +63,10 @@ function App() {
 
 
   return (
-    <div className="hero">
+    <div className="md:bg-hero-pattern h-full md:h-screen bg-cover bg-center">
       <Header />
-      <div className="contenedor">
-        <div className="contenido">
+      <div className="container mx-auto w-11/12 md:w-9/12 lg:w-7/12">
+        <div className="grid grid-auto-rows-max grid-cols-1 md:grid-rows-1 md:grid-cols-2 gap-10 mt-20 md:mt-40">
           <Formulario
             busqueda={busqueda}
             guardarBusqueda={guardarBusqueda}

@@ -30,22 +30,22 @@ const Formulario = ({busqueda, guardarBusqueda, guardarConsultar}) => {
 
     return ( 
             <form 
-            className="Secciones"
+            className="bg-indigo-50 p-10 rounded-3xl flex flex-col text-xl"
             onSubmit={obtenerDatos}
             >
-                <h2>Coloca tu Ciudad y País</h2>
+                <h2 className="text-center mb-10 font-medium text-3xl">Coloca tu Ciudad y País</h2>
                 <label>Ciudad:</label>
                 <input
                     type="text"
                     name="ciudad"
                     placeholder="Ej. Guadalajara"
-                    className="input"
+                    className="p-2 bg-white rounded-md border-2 border-gray-300 mt-3 mb-3"
                     value={ciudad}
                     onChange={actualizarBusqueda}
                 />
                 <label>País:</label>
                 <select
-                className="input" 
+                className="p-2 bg-white rounded-md border-2 border-gray-300 mt-3 mb-3" 
                 name="pais"
                 value={pais}
                 onChange={actualizarBusqueda}
@@ -65,7 +65,7 @@ const Formulario = ({busqueda, guardarBusqueda, guardarConsultar}) => {
                 {error  ? <Error mensaje="Todos los campos son obligatorios" /> : null}
                 <input
                     type="submit"
-                    className="boton"
+                    className="bg-white hover:bg-gray-700 text-black hover:text-white transition-all duration-500 ease-in-out cursor-pointer border-2 border-gray-300 my-10 p-3 font-medium text-xl"
                     value="Ver Clima"
                 />
             </form>

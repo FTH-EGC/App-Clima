@@ -12,22 +12,22 @@ const Resultado = ({resultado}) => {
     const kelvin = 273.15; 
 
     return ( 
-        <div className="Secciones resultado">
-            <h2>{name} - {sys.country}</h2>
+        <div className="bg-indigo-50 p-10 rounded-3xl flex flex-col mb-10 md:mb-0">
+            <h2 className="text-center mb-10 font-medium text-3xl">{name} - {sys.country}</h2>
             <div className="resultados">
-                <p>Temperatura Actual: <span className="grados">{parseFloat(main.temp - kelvin, 10).toFixed(2)}°</span></p>
-                <p>Temperatura Minima: <span className="grados">{parseFloat(main.temp_min - kelvin, 10).toFixed(2)}°</span></p>
-                <p>Temperatura Máxima: <span className="grados">{parseFloat(main.temp_max - kelvin, 10).toFixed(2)}°</span></p>
-                <p>Humedad: <span className="grados">{main.humidity}%</span></p>
+                <p className="font-medium text-3xl my-5">Temperatura Actual: <span className="font-normal text-3xl">{parseFloat(main.temp - kelvin, 10).toFixed(2)}°</span></p>
+                <p className="font-medium my-3 text-2xl">Temperatura Minima: <span className="font-normal text-2xl">{parseFloat(main.temp_min - kelvin, 10).toFixed(2)}°</span></p>
+                <p className="font-medium my-3 text-2xl">Temperatura Máxima: <span className="font-normal text-2xl">{parseFloat(main.temp_max - kelvin, 10).toFixed(2)}°</span></p>
+                <p className="font-medium my-3 text-2xl">Humedad: <span className="font-normal text-2xl">{main.humidity}%</span></p>
             </div>
-            <div className="info-actual">
-                <div className="icono">
+            <div className="grid grid-cols-2 mt-10 items-center">
+                <div className="text-4xl font-medium">
+                    <p> <span>{weather[0].description}</span></p>
+                </div>
+                <div className="">
                     <Iconos
                         resultado={resultado}
                     />
-                </div>
-                <div className="desc-actual">
-                    <p> <span>{weather[0].description}</span></p>
                 </div>
             </div>
         </div>
