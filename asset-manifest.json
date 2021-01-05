@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/app-Clima/static/css/main.cdce1bd4.chunk.css",
-    "main.js": "/app-Clima/static/js/main.cbb7d536.chunk.js",
-    "main.js.map": "/app-Clima/static/js/main.cbb7d536.chunk.js.map",
+    "main.css": "/app-Clima/static/css/main.57d95570.chunk.css",
+    "main.js": "/app-Clima/static/js/main.d7d8d877.chunk.js",
+    "main.js.map": "/app-Clima/static/js/main.d7d8d877.chunk.js.map",
     "runtime-main.js": "/app-Clima/static/js/runtime-main.d7227ff1.js",
     "runtime-main.js.map": "/app-Clima/static/js/runtime-main.d7227ff1.js.map",
     "static/js/2.977cbb37.chunk.js": "/app-Clima/static/js/2.977cbb37.chunk.js",
@@ -10,13 +10,13 @@
     "static/js/3.5597a7dc.chunk.js": "/app-Clima/static/js/3.5597a7dc.chunk.js",
     "static/js/3.5597a7dc.chunk.js.map": "/app-Clima/static/js/3.5597a7dc.chunk.js.map",
     "index.html": "/app-Clima/index.html",
-    "static/css/main.cdce1bd4.chunk.css.map": "/app-Clima/static/css/main.cdce1bd4.chunk.css.map",
+    "static/css/main.57d95570.chunk.css.map": "/app-Clima/static/css/main.57d95570.chunk.css.map",
     "static/js/2.977cbb37.chunk.js.LICENSE.txt": "/app-Clima/static/js/2.977cbb37.chunk.js.LICENSE.txt",
     "static/media/brokenClouds.48039e73.svg": "/app-Clima/static/media/brokenClouds.48039e73.svg",
     "static/media/cloud.f4ed4d6a.svg": "/app-Clima/static/media/cloud.f4ed4d6a.svg",
     "static/media/fewClouds.f67397d4.svg": "/app-Clima/static/media/fewClouds.f67397d4.svg",
     "static/media/fog.39c0ab08.svg": "/app-Clima/static/media/fog.39c0ab08.svg",
-    "static/media/index.css": "/app-Clima/static/media/fondo.fc0cb88f.jpg",
+    "static/media/main.css": "/app-Clima/static/media/fondo.fc0cb88f.jpg",
     "static/media/freezingRain.d910222b.svg": "/app-Clima/static/media/freezingRain.d910222b.svg",
     "static/media/heavyRain.b1d8fd66.svg": "/app-Clima/static/media/heavyRain.b1d8fd66.svg",
     "static/media/lightRain.d8978402.svg": "/app-Clima/static/media/lightRain.d8978402.svg",
@@ -30,7 +30,7 @@
   "entrypoints": [
     "static/js/runtime-main.d7227ff1.js",
     "static/js/2.977cbb37.chunk.js",
-    "static/css/main.cdce1bd4.chunk.css",
-    "static/js/main.cbb7d536.chunk.js"
+    "static/css/main.57d95570.chunk.css",
+    "static/js/main.d7d8d877.chunk.js"
   ]
 }
