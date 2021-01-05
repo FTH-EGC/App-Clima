@@ -34,6 +34,8 @@ function App() {
           guardarConsultar(false);
           guardarResultado(datos);
 
+          console.log(datos)
+
           if(datos.cod === "404"){
             guardarError(true)
           }else{

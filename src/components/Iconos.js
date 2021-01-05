@@ -1,5 +1,5 @@
 import React from 'react';
-import imagenes from '../assets/imagenes';
+import {imagenes} from '../assets/imagenes';
 import PropTypes from 'prop-types';
 
 const Iconos = ({resultado}) => {

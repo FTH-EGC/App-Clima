@@ -13,7 +13,7 @@ import scatteredClouds from '../assets/img/scatteredClouds.svg';
 import brokenClouds from '../assets/img/brokenClouds.svg';
 
 
-export default {
+export const imagenes = {
     "img1" : sun,
     "img2" : fewClouds,
     "img3" : cloud,
